@@ -6,7 +6,6 @@ public class TestAccount {
     private static final Scanner scanner = new Scanner(System.in);
     private static final Account[] accountArray = new Account[100];
     public static void main(String[] args) {
-
         accountArray[0] = new Account("123", "Mr.01",10000);
         accountArray[1] = new Account("456", "Mr.02",30000);
         accountArray[2] = new Account("789", "Mr.03",50000);
