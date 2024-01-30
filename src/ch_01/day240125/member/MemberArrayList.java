@@ -11,6 +11,7 @@ public class MemberArrayList {
     public void addMember(Member member) {
         arrayList.add(member); // 회원을 추가
     }
+
     public boolean removeMember(int memberID) {
         for (Member member : arrayList) {
             if(member.getMemberId() == memberID) {
