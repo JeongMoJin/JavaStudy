@@ -1,6 +1,4 @@
-package ch_01.day240214;
-
-import ch_01.day240115.Person;
+package ch_01.day24021415;
 
 public class DBcreat extends DB {
 
@@ -48,6 +46,4 @@ public class DBcreat extends DB {
             System.out.println("db connect err : " + e);
         }
     }
-
-
 }
