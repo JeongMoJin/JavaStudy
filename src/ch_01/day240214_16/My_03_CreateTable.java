@@ -1,12 +1,12 @@
-package ch_01.day24021415;
+package ch_01.day240214_16;
 
 import java.sql.SQLException;
 
-public class My_04_InsertUser {
+public class My_03_CreateTable {
     public static void main(String[] args) throws SQLException {
-        DBInsert myDB = new DBInsert();
+        DBcreat myDB = new DBcreat();
         myDB.connectDB();
-        myDB.insertUser();
+        myDB.createTableUser();
         myDB.closeDB();
     }
 }

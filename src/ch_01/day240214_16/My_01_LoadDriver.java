@@ -1,4 +1,4 @@
-package ch_01.day24021415;
+package ch_01.day240214_16;
 
 public class My_01_LoadDriver {
     public static void loadDriver() {

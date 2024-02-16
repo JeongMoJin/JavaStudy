@@ -43,4 +43,6 @@ public class Account {
         this.balance = balance;
     }
 
+    public static class Builder {
+    }
 }

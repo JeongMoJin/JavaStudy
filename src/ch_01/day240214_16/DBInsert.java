@@ -1,4 +1,4 @@
-package ch_01.day24021415;
+package ch_01.day240214_16;
 
 import java.sql.SQLException;
 import java.util.Scanner;
