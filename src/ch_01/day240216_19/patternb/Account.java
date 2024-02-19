@@ -1,4 +1,4 @@
-package ch_01.day240216.patternb;
+package ch_01.day240216_19.patternb;
 
 public class Account {
     private int accID;

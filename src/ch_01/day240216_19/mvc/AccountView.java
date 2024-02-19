@@ -1,4 +1,4 @@
-package ch_01.day240216.mvc;
+package ch_01.day240216_19.mvc;
 
 import java.util.Scanner;
 

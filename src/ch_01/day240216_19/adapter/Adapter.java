@@ -1,4 +1,4 @@
-package ch_01.day240216.adapter;
+package ch_01.day240216_19.adapter;
 
 interface AdapterService {
     void runService();
