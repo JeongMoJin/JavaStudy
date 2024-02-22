@@ -55,6 +55,8 @@ public class AccountManager {
 
 
     public void deposit() { // 입금
+
+
         System.out.print("계좌번호: ");
         int id = stdIn.nextInt();
 
