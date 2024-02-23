@@ -6,8 +6,16 @@ public class AccountHistory {
     private String transaction_type;
     private double transaction_amount;
     private double balance;
+
     public AccountHistory() {
     }
+
+    public AccountHistory(String transaction_type, double transaction_amount, double balance) {
+        this.transaction_type = transaction_type;
+        this.transaction_amount = transaction_amount;
+        this.balance = balance;
+    }
+
     public AccountHistory(int id, String account_number, String transaction_type, double transaction_amount, double balance) {
         this.id = id;
         this.account_number = account_number;

@@ -21,9 +21,9 @@ public class AccountView {
 
         while (true) {
             printMenu();
-            System.out.println("선택 : ");
+            System.out.print("선택: ");
             int choice = stdIn.nextInt();
-            switch (choice){
+            switch (choice) {
                 case 1:
                     accountManager.addMember();
                     break;
